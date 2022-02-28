@@ -1,0 +1,11 @@
+Pour faire fonctionner avec BDD : 
+
+- créer avec phpMyAdmin la BDD nommée "importations gpx"
+- créer la table "fichiergpx"
+- créer 2 colonnes :
+	- "id_fichier" int auto-incrémenté
+	- "chemin" varchar(100 au moins)
+
+- Dans le dossier contenant les fichiers "fileupload.php" et "importer.html" : créer un dossier nommé "fichiers_importes"
+
+ATTENTION BIEN RESPECTER LES NOMS :)
