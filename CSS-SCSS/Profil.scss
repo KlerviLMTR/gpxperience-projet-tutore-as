@@ -1,0 +1,51 @@
+// effet de hover onglets actifs: (tous sont activables sur cette page)
+#tab2:hover,#tab3:hover, #tab1:hover{
+    left:10px;
+}
+
+//Caractéristiques tab1 (actif)
+#tab1{
+    transition: all 0.2s ease-out;
+    border: none;
+    .li_border_left{
+        background-color: #af6b69;
+    }
+}
+
+#tab1:hover{
+    img{
+        transition: all 0.2s ease-in;
+        filter: invert(57%) sepia(9%) saturate(2313%) hue-rotate(314deg) brightness(82%) contrast(76%);    }
+}
+
+//Caractéristiques tab2 (actif)
+#tab2{
+    transition: all 0.2s ease-out;
+    border: none;
+    .li_border_left{
+        background-color: #1da9be;
+    }
+}
+
+#tab2:hover{
+    img{
+        transition: all 0.2s ease-in;
+        filter: invert(66%) sepia(35%) saturate(1177%) hue-rotate(139deg) brightness(82%) contrast(78%);
+    }
+}
+
+//Caractéristiques tab 3 (actif)
+#tab3{
+    transition: all 0.2s ease-out;
+    .li_border_left{
+        background-color: #30a06c;
+    }
+}
+
+#tab3:hover{
+
+    img{
+        transition: all 0.2s ease-in;
+        filter: invert(49%) sepia(42%) saturate(597%) hue-rotate(100deg) brightness(98%) contrast(92%);
+    }
+}

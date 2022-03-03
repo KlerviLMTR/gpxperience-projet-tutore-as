@@ -1,0 +1,60 @@
+#tab2 {
+  -webkit-box-shadow: 1px 3px 4px 1px rgba(107, 104, 104, 0.2);
+          box-shadow: 1px 3px 4px 1px rgba(107, 104, 104, 0.2);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #71bdc0;
+  border-right: #71bdc0;
+}
+
+#tab2 a {
+  color: white;
+  letter-spacing: 2px;
+}
+
+#tab2 img {
+  -webkit-filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+          filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+#tab2 .bg_li_border_left {
+  background-color: #1da9be;
+}
+
+#tab1 {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border: none;
+}
+
+#tab1 .li_border_left {
+  background-color: #af6b69;
+}
+
+#tab1:hover img {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-filter: invert(57%) sepia(9%) saturate(2313%) hue-rotate(314deg) brightness(82%) contrast(76%);
+          filter: invert(57%) sepia(9%) saturate(2313%) hue-rotate(314deg) brightness(82%) contrast(76%);
+}
+
+#tab3 {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#tab3 .li_border_left {
+  background-color: #30a06c;
+}
+
+#tab3:hover img {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  -webkit-filter: invert(49%) sepia(42%) saturate(597%) hue-rotate(100deg) brightness(98%) contrast(92%);
+          filter: invert(49%) sepia(42%) saturate(597%) hue-rotate(100deg) brightness(98%) contrast(92%);
+}
+
+#tab1:hover, #tab3:hover {
+  left: 10px;
+}
+/*# sourceMappingURL=Aide.css.map */
